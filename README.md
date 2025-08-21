@@ -1,2 +1,0 @@
-# Vendrix
-POS + Inventory System
