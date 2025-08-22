@@ -1,1 +1,0 @@
-export const APP_CONFIG={appName:'Vendrix',version:'v1.2',tagline:'Back-office'}

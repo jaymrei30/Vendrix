@@ -1,2 +1,0 @@
-import React from 'react'
-export default function Modal({open,title,children,onClose}){if(!open)return null;return(<div className="vx-modal-backdrop" onClick={onClose}><div className="vx-modal-card" onClick={e=>e.stopPropagation()}><div className="flex items-center justify-between mb-3"><h3 className="text-lg font-semibold">{title}</h3><button onClick={onClose} className="px-2 py-1 rounded hover:bg-gray-100 dark:hover:bg-gray-700">✕</button></div>{children}</div></div>)}
